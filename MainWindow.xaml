@@ -1,0 +1,16 @@
+﻿<Window x:Class="Oleksandr_Dikhtiarenko_AplikacjaBankowa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oleksandr_Dikhtiarenko_AplikacjaBankowa"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="478" Width="800">
+    <Grid Background="#FF2F3A1F">
+        <DataGrid x:Name="DataGrid" Height="420" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="#FF3E4C2B"/>
+        <Button Content="Add" Width="100" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Left" Click="Button_Click"/>
+        <Button Content="Delete"  Width="120" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="Button_Click_2" />
+        <TextBox x:Name="tbSerch" Text="Get Id which you want to delete" TextAlignment="Center" FontSize="18" Height="40" Width="290" VerticalAlignment="Bottom" />
+
+    </Grid>
+</Window>
